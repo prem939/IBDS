@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IBDS</string>
+
+    <string name="tab1">My Tasks</string>
+    <string name="tab2">Cpt Tasks</string>
+    <string name="tab3">Lead</string>
+    <string name="tab4">ID</string>
+    <string name="tab5">Account</string>
+
+    <string name="warning">Warning !</string>
+    <string name="Cancel">cancel</string>
+    <string name="OK">OK</string>
+
+    <string name="enter_password">Please enter password.</string>
+    <string name="enter_username_password">Please enter username and password.</string>
+    <string name="enter_username">Please enter username.</string>
+
+    <string name="exited_user"><u>If you have a account.</u></string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="do_you_want_to_logout">Are you sure you want to logout?</string>
+
+    <string name="created_time">Created \nTime</string>
+    <string name="allocated_time">Allocated \nTime</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="completed_time">Completed \nTime</string>
+
+    <string name="working_hours">Working \nhours</string>
+    <string name="paid_hours">Paid \nhours</string>
+    <string name="balance_pay">Balance \npay</string>
+    <string name="Pay_hours">Pay/Hours</string>
+
+    <string name="congratulations_for_completed_task">Congratulations you completed the TASK. \n Reload the page.</string>
+</resources>

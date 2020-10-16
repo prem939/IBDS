@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/gray_light2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/persons_logo">
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajesh"
+            android:textColor="@color/sky"
+            android:id="@+id/txtName"
+            android:textSize="@dimen/_13sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="he ask to call tommarow"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_2sdp"
+            android:id="@+id/txtComment"
+            android:textSize="@dimen/_13sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like . Just now"
+            android:textSize="@dimen/_10ssp"
+            android:layout_margin="@dimen/_2sdp"
+            android:textColor="@color/gray_light">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="@color/gray_light">
+    </ImageView>
+
+</LinearLayout>

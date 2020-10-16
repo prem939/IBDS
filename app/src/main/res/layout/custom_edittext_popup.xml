@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bgmain"
+        android:orientation="vertical"
+        android:padding="@dimen/_30sdp">
+
+        <TextView
+            android:id="@+id/tvTitlePopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="Add Task"
+            android:textColor="@color/gray_dark"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:background="@drawable/divideline1" />
+
+        <EditText
+            android:id="@+id/edtTask"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="Task"
+            android:background="@drawable/round"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            />
+        <EditText
+            android:id="@+id/edtAllocatedTime"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="Time in Hours"
+            android:background="@drawable/round"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            />
+        <EditText
+            android:id="@+id/edtAccuracy"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/_5sdp"
+            android:hint="Accuracy"
+            android:background="@drawable/round"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/blue"
+                android:text="Add"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

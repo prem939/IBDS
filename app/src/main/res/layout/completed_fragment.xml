@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_ground"
+    android:id="@+id/llInboxFragment"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="completed tasks "
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        />
+    <ImageView
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:id="@+id/imgReload"
+        android:visibility="visible"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:layout_gravity="right"
+        android:src="@drawable/reload"
+        >
+    </ImageView>
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:background="@color/white"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_10ssp"
+        android:layout_weight="1">
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/created_time"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_10ssp"
+        android:layout_weight="1">
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/completed_time"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/_10ssp"
+        android:layout_weight="1">
+        >
+    </TextView>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@color/gray_light4">
+    </View>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvInbox"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/txtNoCompletedTask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="No Task are completed"
+        android:textColor="@color/gray_light"
+        android:textSize="@dimen/_10ssp"
+        android:visibility="gone">
+    </TextView>
+</LinearLayout>
